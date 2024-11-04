@@ -21,3 +21,29 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# Netflix-GPT
+
+- Created create-react-app
+- configured - TailwindCSS
+
+
+# feature
+Login / Sign Up
+ - SignIn Page
+ - Login 
+
+- Browse (after authentication)
+  - Header
+  - Main Movie
+    - Main Trailer (Bg)
+    - Title - description
+  - Movie Suggestions
+    -movie list
+
+- NetflixGPT
+    - Search Bar
+    - Movie Suggestions
+
+  
