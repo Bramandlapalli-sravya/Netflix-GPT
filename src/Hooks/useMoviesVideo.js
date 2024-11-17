@@ -13,7 +13,6 @@ export const useMoviesVideo = (movieID) => {
         options_api
       );
       const data = await response.json();
-      console.log(data.results, "data-videos");
 
       const filterTrailer = data?.results?.filter(
         (video) => video.type === "Trailer"

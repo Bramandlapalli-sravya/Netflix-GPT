@@ -10,4 +10,6 @@ export const options_api = {
   }
 };
 
+export const IMG_CDN = "https://image.tmdb.org/t/p/w300";
+
 // this is taken from tmdb website to make an "GET" api request

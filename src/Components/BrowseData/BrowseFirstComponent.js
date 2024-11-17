@@ -12,7 +12,6 @@ function BrowseFirstComponent() {
   }
 
   const { original_title, overview, poster_path, id } = moviesNowPlaying[0];
-  console.log("moviesNowPlaying", moviesNowPlaying[0]);
 
   return (
     <div>
