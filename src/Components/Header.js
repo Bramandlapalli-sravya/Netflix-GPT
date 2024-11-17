@@ -52,7 +52,7 @@ const Header = () => {
     <div
       className={`px-8 py-4 text-white ${
         users ? "bg-black" : "bg-gradient-to-b from-black"
-      } w-full sticky top-0 flex justify-between`}
+      } w-full sticky top-0 flex flex-wrap justify-center sm:justify-between`}
     >
       <img className="w-56 h-14" src={logo} alt="netflix-logo" />
       {users && (

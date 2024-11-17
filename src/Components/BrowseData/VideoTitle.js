@@ -6,7 +6,7 @@ export default function VideoTitle({ title, overview, randomMovie, movieId }) {
     <div className="relative bg-cover bg-center h-[600px] text-white ">
       <div className="absolute inset-0">
         <VideoBackground movieId={movieId} randomMovie={randomMovie} />
-        <div className="absolute bottom-0 w-1/4 p-5 h-[600px] flex flex-col justify-center bg-gradient-to-r from-black">
+        <div className="absolute bottom-0 w-4/5 sm:w-1/4  p-5 h-[600px] flex flex-col justify-center bg-gradient-to-r from-black">
           <h1 className="text-4xl font-bold mb-2">{title}</h1>
           <h2 className="text-lg mb-4">{overview}</h2>
           <div className="flex gap-4">
