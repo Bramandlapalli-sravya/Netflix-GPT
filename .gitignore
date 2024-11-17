@@ -30,6 +30,33 @@ yarn-error.log*
 - header
 - login form
 - sign up form
+- form validation
+- useRef hook
+- create a Firebase account 
+- Created a project in Firebase
+- created Authentication using Email/Password
+- In VS code project added firebase login for deploying the code to firebase using command - firebase login
+- Once logged in you need to setup project by command - firebase init
+- select your project from your firebase which is existing project 
+- No am using public directory as build 
+- setuping "No" for automatic builds and deploys with github (for all projects I used Netlify where it automatically deploy my app)
+- Now for deploying we need to build a "build Folder" in our app using command - npm run build
+- After building run command - "firebase Deploy" for deploying
+- Deployed in firebase
+- Create signup user Account
+- Implemented SignIn and SignUp user api from firebase
+- setuped the store
+- Updated profile picture according to the user login. 
+  - while signin we are adding name, email, photo to store soo we are getting them depends on the user only.
+- fixed direct changing route from login to browse bcz if user is logined we need to go to browse right ?
+  - That is fixed using checking whether User is present or not it means as we are using firebase in that we check for Auth which give the authenticated user.
+- unsubscribe onAuthChanged when component unmounts
+- Registered Tmdb movies api application (got some issue for not rendering check youtube and setup if this is the case)
+- Login and getting apis using api_key with options in api fetching 
+- Created custom hooks
+- Added video and title for browse screen
+- fetched video according to the id
+
 
 
 # feature
