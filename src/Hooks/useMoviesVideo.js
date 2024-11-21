@@ -11,7 +11,7 @@ export const useMoviesVideo = (movieID) => {
       const response = await fetch(
         `https://api.themoviedb.org/3/movie/${movieID}/videos`,
         options_api
-      );
+      ).catch((error) => console.log(error, "error"));
       const data = await response.json();
 
       const filterTrailer = data?.results?.filter(

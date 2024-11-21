@@ -5,11 +5,12 @@ export const options_api = {
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlY2MxMWU0NDAxNDg1ZTY2MDNiNDY5ZGUwMDZiOGNjZCIsIm5iZiI6MTczMTc1MzQ4NC44OTA3NTcsInN1YiI6IjY1ZjU1OWIzYjk3NDQyMDEzMWY4ZmJkNiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.4B9yEGCL0-a-CMD10iOM1RrYJe3DJC6MDhjAFBcr_WI"
+    Authorization: `Bearer ${process.env.REACT_APP_API_TOKEN}`
   }
 };
 
-export const IMG_CDN = "https://image.tmdb.org/t/p/w300";
+console.log(`${process.env.REACT_APP_API_TOKEN}`, "api");
+
+export const IMG_CDN = "https://image.tmdb.org/t/p/w300"; // got this from tmdb for rendering images for movies
 
 // this is taken from tmdb website to make an "GET" api request

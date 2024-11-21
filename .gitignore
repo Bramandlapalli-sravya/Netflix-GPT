@@ -17,6 +17,7 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.env
 
 npm-debug.log*
 yarn-debug.log*
@@ -56,6 +57,12 @@ yarn-error.log*
 - Created custom hooks
 - Added video and title for browse screen
 - fetched video according to the id
+- Build the Movie list according to the dividing nowplaying, popular, trending with different apis.
+- Made reusable components for all the components
+- gpt search feature 
+- bgImg for GPTSearch screen, login screen added in config directly to use as "bg-custom-bg"
+- Added multilangugage for search bar using redux storage
+
 
 
 
