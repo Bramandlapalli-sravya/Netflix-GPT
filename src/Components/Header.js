@@ -62,7 +62,7 @@ const Header = () => {
     >
       <img className="w-56 h-14" src={logo} alt="netflix-logo" />
       {users && (
-        <div className="flex gap-4 items-center">
+        <div className="flex gap-4 items-center justify-center flex-wrap sm:flex-nowrap">
           {gptSearch && (
             <select
               onChange={(e) => dispatch(changeLanguage(e.target.value))}
